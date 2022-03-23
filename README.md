@@ -6,7 +6,13 @@ Game idee: Een racing game waar je weg rijdt van de politie.
 
 ## Waarom ik bepaalde dingen deed ##
 
-Ik heb Unity gebruikt omdat ik dat veel heb gebruikt en er comfortabel mee ben 
+Ik heb Unity gebruikt omdat ik dat veel heb gebruikt en er comfortabel mee ben. Ik gebruik mijn telefoon omdat ik daar in een built in rotatie meter heb die ik makelijk kan toepassen in mijn game.
+
+
+## Known Error's/Bugfixing ##
+
+-Police kan de speler aan raken en het eindigt niet de game.
+
 
 ## Hoe het ging ##
 
