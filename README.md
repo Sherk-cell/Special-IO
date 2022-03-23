@@ -1,15 +1,19 @@
 # Special-IO
 Mijn project voor school
-## Input wordt Microbit ##
+## Input is: Telefoon ##
+
 Game idee: Een racing game waar je weg rijdt van de politie.
 
- ## Bronnenlijst ##
+## Waarom ik bepaalde dingen deed ##
+
+Ik heb Unity gebruikt omdat ik dat veel heb gebruikt en er comfortabel mee ben 
 
 ## Hoe het ging ##
 
 
 
 ## Geschiedenis ##
--Op 21 maart heb ik de game gepushed naar github 
+-Op 21 maart heb ik de game gepushed naar github. De game is voor een begin al klaar nu moet ik nog gaan werken aan de controlles en dat het werkt.
+
 
 
