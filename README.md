@@ -20,6 +20,8 @@ Ik heb Unity gebruikt omdat ik dat veel heb gebruikt en er comfortabel mee ben. 
 
 
 ## Geschiedenis ##
+-Op 18 maart heb ik de map gebouwed en de models ge import
+
 -Op 21 maart heb ik de game gepushed naar github. De game is voor een begin al klaar nu moet ik nog gaan werken aan de controlles en dat het werkt.
 
 
