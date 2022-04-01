@@ -33,5 +33,6 @@ Ik heb Unity gebruikt omdat ik dat veel heb gebruikt en er comfortabel mee ben. 
 Tests moeten nog gedaan worden 
 
 ## Links ##
+Trello: https://trello.com/b/2MbDfiro/special-io
 
 
