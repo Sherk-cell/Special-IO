@@ -16,8 +16,10 @@ Ik heb Unity gebruikt omdat ik dat veel heb gebruikt en er comfortabel mee ben. 
 -Police kan de speler aan raken en het eindigt niet de game.
 
 ## Bronnenlijst ##
--
-
+- https://www.youtube.com/watch?v=fsEkZLBeTJ8
+- https://www.youtube.com/watch?v=pQMgaIJlg84
+- https://www.youtube.com/watch?v=IfaOExImBOk
+- https://www.youtube.com/watch?v=6OT43pvUyfY
 
 ## Geschiedenis ##
 -Op 18 maart heb ik de map gebouwed en de models ge import
