@@ -13,7 +13,7 @@ Ik heb Unity gebruikt omdat ik dat veel heb gebruikt en er comfortabel mee ben. 
 
 ## Known Error's/Bugfixing ##
 
--Police kan de speler aan raken en het eindigt niet de game.
+- Police kan de speler aan raken en het eindigt niet de game.
 
 ## Bronnenlijst ##
 - https://www.youtube.com/watch?v=fsEkZLBeTJ8
