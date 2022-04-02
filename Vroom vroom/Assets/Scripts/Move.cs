@@ -4,157 +4,88 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-    public float speed;
-    public float backspd;
-    bool ismoving_ = false;
-    // Start is called before the first frame update
+
+
+    public float floater = 12;
+    public bool inair;
     void Start()
     {
-        speed = 0;
+
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (speed == 0 && backspd == 0)
+        if(inair == true)
         {
-            ismoving_ = false;
-        }
-
-        if (0 > speed)
-        {
-            speed = 0;
-        }
-
-        if (0 > backspd)
-        {
-            backspd = 0;
-        }
-        if (Input.GetKeyUp(KeyCode.W) == false)
-        {
-
-            StartCoroutine("accel");
+            StartCoroutine("Floating");
 
         }
+        
 
-        if (Input.GetKeyUp(KeyCode.S) == false)
-        {
-
-            StartCoroutine("slowback");
-
-        }
-
-        if (Input.GetKey(KeyCode.W))
-        {
-            transform.Translate(Vector3.forward * Time.deltaTime * speed);
-            ismoving_ = true;
-            StopCoroutine("accel");
-            speed = 14;
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.Translate(-1 * Vector3.forward * Time.deltaTime * backspd);
-            ismoving_ = true;
-            backspd = 14;
-            StopCoroutine("slowback");
-        }
-
-
-
+       
 
 
     }
 
-    public IEnumerator accel()
+
+    public IEnumerator Floating()
     {
         while (enabled)
         {
-            transform.Translate(Vector3.forward * Time.deltaTime * speed);
 
+            Debug.Log("werkt");
+            transform.Translate(Vector3.forward * Time.deltaTime * floater);
             yield return new WaitForSeconds(1f);
-
-
-            if (speed > 0)
+            if (floater > 0)
             {
-                speed = speed - 0.22f;
+                floater = floater - 0.022f;
             }
-            yield return new WaitForSeconds(1f);
-            transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        }
+    }
+
+
+
+
+
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.tag == "Floorthingy")
+        {
+            Debug.Log("aaa");
+            inair = true;
         }
 
 
     }
-    public IEnumerator slowback()
+
+
+
+    private void OnCollisionEnter(Collision collision)
     {
-        while (enabled)
+        if (collision.gameObject.tag == "Floorthingy")
         {
-            transform.Translate(-1 * Vector3.forward * Time.deltaTime * backspd);
-
-            yield return new WaitForSeconds(1f);
-
-
-            if (backspd > 0)
-            {
-                backspd = backspd - 0.2f;
-            }
-            yield return new WaitForSeconds(1f);
-
+            inair = false;
+            StopCoroutine("Floating");
+            floater = 12;
+            Debug.Log("opgrond");
         }
-
     }
 
     private void OnCollisionStay(Collision other)
-    {/*
-
-        if (other.gameObject.tag == "Booster")
-        {
-            Debug.Log("Enter");
-            speed = 24;
-            backspd = 24;
-            if (Input.GetKey(KeyCode.A) && ismoving_ == true)
-            {
-                transform.Rotate(0, -1f, 0);
-            }
-            if (Input.GetKey(KeyCode.D) && ismoving_ == true)
-            {
-                transform.Rotate(0, 1f, 0);
-
-            }
-        }
-        */
-
-        if (other.gameObject.tag == "Floorthingy")
-        {
-            if (Input.GetKey(KeyCode.A) && ismoving_ == true)
-            {
-                transform.Rotate(0, -1f, 0);
-            }
-            if (Input.GetKey(KeyCode.D) && ismoving_ == true)
-            {
-                transform.Rotate(0, 1f, 0);
-            }
-
-
-        }
-
-    }
-
-
-
-    
-
-    private void OnCollisionExit(Collision other)
     {
         if (other.gameObject.tag == "Floorthingy")
         {
-            ismoving_ = false;
-            Debug.Log("AAAAAAAAAAAAAAAAAAAA");
-            backspd = 0;
-            speed = 0;
+            if(inair == false)
+            {
+                transform.Translate(0, 0, -Input.acceleration.z);
+                transform.Rotate(0, Input.acceleration.x, 0);
+
+            }
+
+            inair = false;
+
+           
+
         }
-
-
-
-
     }
 }
