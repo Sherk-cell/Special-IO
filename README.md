@@ -13,7 +13,7 @@ Ik heb Unity gebruikt omdat ik dat veel heb gebruikt en er comfortabel mee ben. 
 
 ## Known Error's/Bugfixing ##
 
-- Police kan de speler aan raken en het eindigt niet de game.
+- Player can fall out of the map if you drive through a building
 
 ## Bronnenlijst ##
 - https://www.youtube.com/watch?v=fsEkZLBeTJ8
@@ -31,6 +31,8 @@ Ik heb Unity gebruikt omdat ik dat veel heb gebruikt en er comfortabel mee ben. 
 
 -Op 30 maart is het mij gelukt om de telefoon op Laptop te laten verbinden. Ik ben al gedeeltelijk klaar met de opdracht ik wil nog alleen geluid importeren en dan ben ik klaar met het controller gedeelte. Ik heb de touchscreen en de gyroscope/Versnellingsmeter. Ik ga nu vooral verder werken aan de game zelf en verbeteren waar ik kan.
 Tests moeten nog gedaan worden 
+
+- Op 5 April denk ik dat ik klaar ben met het spel en de controlles. Ik heb bijna elke onderdeel van de telefoon gebruikt en hoop dat het genoeg is.
 
 ## Links ##
 Trello: https://trello.com/b/2MbDfiro/special-io
