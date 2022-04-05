@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class Police : MonoBehaviour
 {
@@ -27,6 +28,7 @@ public class Police : MonoBehaviour
     {
         yield return new WaitForSeconds(0.75f);
         Debug.Log("KANker");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
 
     }
 

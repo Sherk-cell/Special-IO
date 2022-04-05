@@ -12,6 +12,14 @@ public class Sceneswitch : MonoBehaviour
         Debug.Log("Werkt");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+    public void goback()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+    public void goback2()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+    }
 
 
     //reasons SceneManager.LoadScene("OtherSceneName", LoadSceneMode.Additive);

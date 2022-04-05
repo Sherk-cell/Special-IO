@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Testscript : MonoBehaviour
 {
-    float smooth = 5f;
+    //float smooth = 5f;
 
 
     void Update()

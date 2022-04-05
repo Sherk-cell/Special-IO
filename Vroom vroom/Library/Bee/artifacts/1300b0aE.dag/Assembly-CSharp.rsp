@@ -318,6 +318,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/DEAT.cs"
+"Assets/Scripts/Finish_line.cs"
 "Assets/Scripts/FollowGyro.cs"
 "Assets/Scripts/GyroManager.cs"
 "Assets/Scripts/lookatcamera.cs"
