@@ -4,7 +4,7 @@ Mijn project voor school
 
 
 ## Beschrijving van de game ##
-Een racing game waar je weg rijdt van de politie door gebruik van je telefoon te tilten naar voren links of rechts om naar een specifieke kant op tegaan
+Een racing game waar je weg rijdt van de politie door gebruik van je telefoon. je tilt je telefoon naar voren, achter, links of rechts om naar een specifieke kant op tegaan
 
 ## Waarom ik bepaalde dingen deed ##
 
