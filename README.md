@@ -39,4 +39,5 @@ Tests moeten nog gedaan worden
 
 ## Links ##
 Trello: https://trello.com/b/2MbDfiro/special-io
+
 All Extra documents: https://mediacollegeamsterdam-my.sharepoint.com/personal/22826_ma-web_nl/Documents/IO%20DOC.pdf
