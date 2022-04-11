@@ -16,10 +16,13 @@ Ik heb Unity gebruikt omdat ik dat veel heb gebruikt en er comfortabel mee ben. 
 - Player can fall out of the map if you drive through a building
 
 ## Bronnenlijst ##
-- https://www.youtube.com/watch?v=fsEkZLBeTJ8
-- https://www.youtube.com/watch?v=pQMgaIJlg84
-- https://www.youtube.com/watch?v=IfaOExImBOk
-- https://www.youtube.com/watch?v=6OT43pvUyfY
+- https://www.youtube.com/watch?v=fsEkZLBeTJ8 (De gyroscope/Accelerometer input)
+- https://www.youtube.com/watch?v=pQMgaIJlg84 (Hoe je de game op je telefoon zit)
+- https://www.youtube.com/watch?v=IfaOExImBOk (Unity remote fix )
+- https://www.youtube.com/watch?v=6OT43pvUyfY (Audio tutorial)
+- https://www.youtube.com/watch?v=MdcJCGfyNjk (Microbit onderzoek)
+- https://github.com/bLiGM/Microbit-Unity (Meer Microbit)
+- http://danco-tek.com/tc/microbit.html (Nog meer Microbit)
 
 ## Geschiedenis ##
 -Op 18 maart heb ik de map gebouwed en de models ge import
