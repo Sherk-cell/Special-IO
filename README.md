@@ -8,7 +8,7 @@ Een racing game waar je weg rijdt van de politie door gebruik van je telefoon. j
 
 ## Waarom ik bepaalde dingen deed ##
 
-Ik heb Unity gebruikt omdat ik dat veel heb gebruikt en er comfortabel mee ben. Ik gebruik mijn telefoon omdat ik daar in een built in rotatie meter heb die ik makelijk kan toepassen in mijn game. Het was orgineel de Microbit maar dat is veranderd omdat ik het niet kon connecten met Unity.
+Ik heb Unity gebruikt omdat ik het veel heb gebruikt en er comfortabel mee ben. Ik gebruik mijn telefoon omdat ik daar in een built in Gyroscope heb die ik makelijk kan toepassen in mijn game. Het was orgineel de Microbit maar dat is veranderd omdat ik het niet kon connecten met Unity.
 
 
 ## Known Error's/Bugfixing ##
@@ -32,7 +32,7 @@ Ik heb Unity gebruikt omdat ik dat veel heb gebruikt en er comfortabel mee ben. 
 
 -Op 23 maart ben ik overgestapt naar Telefoon. De Microbit kon ik niet zien te werken krijgen dus ben ik over gestapt, ik zal proberen om wel terug komen maar voor nu wordt het toch wel mijn telefoon.
 
--Op 30 maart is het mij gelukt om de telefoon op Laptop te laten verbinden. Ik ben al gedeeltelijk klaar met de opdracht ik wil nog alleen geluid importeren en dan ben ik klaar met het controller gedeelte. Ik heb de touchscreen en de gyroscope/Versnellingsmeter. Ik ga nu vooral verder werken aan de game zelf en verbeteren waar ik kan.
+-Op 30 maart is het mij gelukt om de telefoon op Laptop te laten verbinden. Ik ben al gedeeltelijk klaar met de opdracht ik wil nog alleen geluid importeren en dan ben ik klaar met het controller gedeelte. Ik heb de touchscreen en de gyroscope. Ik ga nu vooral verder werken aan de game zelf en verbeteren waar ik kan.
 Tests moeten nog gedaan worden 
 
 -Op 5 April denk ik dat ik klaar ben met het spel en de controlles. Ik heb bijna elke onderdeel van de telefoon gebruikt en hoop dat het genoeg is.
